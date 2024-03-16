@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Cement Strength</title>
+</head>
+<body>
+    <h1>Welcome to Cement Strength Predictor</h1>
+    <p>Please enter the following values to predict cement strength:</p>
+    <form action="/predict" method="post">
+        <label for="Cement">Cement:</label>
+        <input type="text" name="Cement"><br>
+        
+        <label for="Blast Furnace Slag _component_2">Blast Furnace Slag:</label>
+        <input type="text" name="Blast Furnace Slag _component_2"><br>
+        
+        <label for="Fly Ash _component_3">Fly Ash:</label>
+        <input type="text" name="Fly Ash _component_3"><br>
+        
+        <label for="Water_component_4">Water:</label>
+        <input type="text" name="Water_component_4"><br>
+        
+        <label for="Superplasticizer_component_5">Superplasticizer:</label>
+        <input type="text" name="Superplasticizer_component_5"><br>
+        
+        <label for="Coarse Aggregate_component_6">Coarse Aggregate:</label>
+        <input type="text" name="Coarse Aggregate_component_6"><br>
+        
+        <label for="Fine Aggregate_component_7">Fine Aggregate:</label>
+        <input type="text" name="Fine Aggregate_component_7"><br>
+        
+        <label for="Age_day">Age (days):</label>
+        <input type="text" name="Age_day"><br>
+        
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
